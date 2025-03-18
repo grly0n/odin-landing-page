@@ -36,7 +36,6 @@ body {
     align-items: center;
     gap: 5%;
     height: 450px;
-    flex-wrap: wrap;
 }
 .hero-text {
     display: flex;
@@ -74,10 +73,36 @@ button {
     border: 2px solid white;
 }
 
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+    gap: 30px;
+    padding-bottom: 50px;
+}
 .information-header-text {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+}
+.tile-box {
+    display: flex;
+    gap: 30px;      
+    justify-content: space-evenly;
+}
+.tile {
+    text-align: center;
+}
+.tile img {
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+.tile-text {
+    color: #1F2937;
+    max-width: 250px;
 }
 
 

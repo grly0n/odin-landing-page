@@ -5,10 +5,10 @@ body {
     margin: 0;
 }
 
-
 .header,
 .footer,
-.hero {
+.hero
+    {
     display: flex;
     background-color: #1F2937;
 }
@@ -18,7 +18,7 @@ body {
 }
 .header-logo-text {
     font-size: 24px;
-    color: #E5E7EB;
+    color: #E5E7EB;   
 }
 .links {
     display: flex;
@@ -31,7 +31,17 @@ body {
     color: #E5E7EB;
 }
 
-
+.hero {
+    justify-content: center;
+    gap: 5%;
+}
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    flex-shrink: 0;
+    gap: 10px;
+}
 .hero-main-text {
     font-size: 48px;
     color: #F9FAF8;

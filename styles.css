@@ -7,14 +7,17 @@ body {
 
 .header,
 .footer,
-.hero
-    {
+.hero {
     display: flex;
+    justify-content: center;
     background-color: #1F2937;
 }
-.header {
-    justify-content: space-around;
+.header-content {
+    display: flex;
     padding-top: 16px;
+    width: 100%;
+    justify-content: center;
+    gap: 550px;
 }
 .header-logo-text {
     font-size: 24px;
@@ -41,7 +44,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 500px;
-    flex-shrink: 0;
+    flex-shrink: 1;
     gap: 20px;
 }
 .hero-main-text {

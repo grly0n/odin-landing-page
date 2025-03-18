@@ -109,9 +109,23 @@ button {
 .quote {
     background-color: #E5E7EB;
 }
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
 .quote-text {
     font-size: 36px;
     font-weight: light;
     font-style: italic;
     color: #1F2937;
+}
+.quote-text-dark {
+    font-size: 24px;
+    font-weight: bold;
+    color: #10151d;
+    align-self: end;
 }

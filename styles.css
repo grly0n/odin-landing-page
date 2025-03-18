@@ -14,7 +14,7 @@ body {
 }
 .header {
     justify-content: space-around;
-    padding: 16px;
+    padding-top: 16px;
 }
 .header-logo-text {
     font-size: 24px;
@@ -33,14 +33,17 @@ body {
 
 .hero {
     justify-content: center;
+    align-items: center;
     gap: 5%;
+    height: 450px;
+    flex-wrap: wrap;
 }
 .hero-text {
     display: flex;
     flex-direction: column;
     width: 500px;
     flex-shrink: 0;
-    gap: 10px;
+    gap: 20px;
 }
 .hero-main-text {
     font-size: 48px;
@@ -58,7 +61,18 @@ button,
 .action-background {
     background-color: #3882F6;
 }
+button {
+    max-width: fit-content;
+    padding: 4px 24px;
+    border-radius: 5px;
+    border: transparent;
+    color: #FFFFFF;
+    font-weight: 600;
+}
 
+.action button {
+    border: 2px solid white;
+}
 
 .information-header-text {
     font-size: 36px;
